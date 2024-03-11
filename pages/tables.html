@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../assets/img/apple-icon.png"
+    />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <title>Merryl Investments</title>
+    <!--     Fonts and icons     -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <!-- Nucleo Icons -->
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/42d5adcbca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link
+      id="pagestyle"
+      href="../assets/css/argon-dashboard.css?v=2.0.4"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body class="" style="padding-left: 30px">
+    <br />
+    <main class="main-content mt-0">
+      <form>
+        <div class="form-group row">
+          <label for="select1" class="col-4 col-form-label"
+            >Type of Order</label
+          >
+          <div class="col-8">
+            <select
+              id="select1"
+              name="select1"
+              class="custom-select"
+              required="required"
+            >
+              <option value="Market">Market</option>
+              <option value="Depot">Depot</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text" class="col-4 col-form-label">Shop Name</label>
+          <div class="col-8">
+            <div class="input-group">
+              <input
+                id="text"
+                name="text"
+                placeholder="shop name"
+                type="text"
+                class="form-control"
+                required="required"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text1" class="col-4 col-form-label">Contact Person</label>
+          <div class="col-8">
+            <input
+              id="text1"
+              name="text1"
+              placeholder="Contact Person Name"
+              type="text"
+              class="form-control"
+              required="required"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text2" class="col-4 col-form-label">Tel Number</label>
+          <div class="col-8">
+            <input
+              id="text2"
+              name="text2"
+              placeholder="Enter number"
+              type="text"
+              class="form-control"
+              required="required"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="select" class="col-4 col-form-label">Select Wilaya</label>
+          <div class="col-8">
+            <select
+              id="select"
+              name="select"
+              class="custom-select"
+              required="required"
+            >
+              <option value="TMK">TMK</option>
+              <option value="Ilala">Ilala</option>
+              <option value="Ubungo">Ubungo</option>
+              <option value="Kigamboni">Kigamboni</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text3" class="col-4 col-form-label">Map</label>
+          <div class="col-8">
+            <input id="text3" name="text3" type="text" class="form-control" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text4" class="col-4 col-form-label">Product Name</label>
+          <div class="col-8">
+            <input
+              id="text4"
+              name="text4"
+              placeholder="product name"
+              type="text"
+              class="form-control"
+              required="required"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text5" class="col-4 col-form-label"
+            >Number of Cartons</label
+          >
+          <div class="col-8">
+            <input
+              id="text5"
+              name="text5"
+              type="text"
+              class="form-control"
+              required="required"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-4">Visibility</label>
+          <div class="col-8">
+            <div class="custom-control custom-radio custom-control-inline">
+              <input
+                name="radio"
+                id="radio_0"
+                type="radio"
+                class="custom-control-input"
+                value="yes"
+              />
+              <label for="radio_0" class="custom-control-label">Yes</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input
+                name="radio"
+                id="radio_1"
+                type="radio"
+                class="custom-control-input"
+                value="No"
+              />
+              <label for="radio_1" class="custom-control-label">No</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="text6" class="col-4 col-form-label"
+            >If Yes above, Upload Photo</label
+          >
+          <div class="col-8">
+            <input id="text6" name="text6" type="text" class="form-control" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="offset-4 col-8">
+            <button name="submit" type="submit" class="btn btn-primary">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script>
+      var win = navigator.platform.indexOf("Win") > -1;
+      if (win && document.querySelector("#sidenav-scrollbar")) {
+        var options = {
+          damping: "0.5",
+        };
+        Scrollbar.init(document.querySelector("#sidenav-scrollbar"), options);
+      }
+    </script>
+    <!-- Github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="../assets/js/argon-dashboard.min.js?v=2.0.4"></script>
+  </body>
+</html>

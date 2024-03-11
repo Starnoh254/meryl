@@ -1,0 +1,10 @@
+const userDataString = localStorage.getItem("userData");
+const userData = JSON.parse(userDataString);
+console.log(userData);
+const userName = document.getElementById("username");
+userName.value = userData.salesPerson.userName;
+email.value = userData.salesPerson.email;
+firstName.value = userData.salesPerson.firstName;
+lastName.value = userData.salesPerson.lastName;
+let name = document.getElementById("name");
+name.innerHTML = userData.salesPerson.firstName + " " + userData.salesPerson.lastName;
